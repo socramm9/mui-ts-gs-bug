@@ -4,7 +4,7 @@ import GlobalStyles from "@mui/material/GlobalStyles";
 function App() {
   return (
     <GlobalStyles
-      styles={(theme: any) => {
+      styles={(theme) => {
         return {
           body: {
             backgroundColor: theme.palette.primary.main,
